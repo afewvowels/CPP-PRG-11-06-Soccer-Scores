@@ -77,8 +77,8 @@ StcPlayerInfo *getPlayerInfo(StcPlayerInfo *spiPlayers, int INT_SIZE)
     getline(cin, spiPlayer->strPlayerName);
     
     cout << "Enter the player's number: ";
-    cin.clear();
-    cin.ignore();
+//    cin.clear();
+//    cin.ignore();
     cin >> spiPlayer->intPlayerNumber;
     while(!cin || spiPlayer->intPlayerNumber <= 0 || spiPlayer->intPlayerNumber >= 100)
     {
